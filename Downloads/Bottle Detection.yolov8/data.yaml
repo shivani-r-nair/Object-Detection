@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Bottle']
+
+roboflow:
+  workspace: shivani-rajesh
+  project: bottle-detection-7oc7b
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/shivani-rajesh/bottle-detection-7oc7b/dataset/dataset
